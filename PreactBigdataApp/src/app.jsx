@@ -4,9 +4,11 @@ import Navbar from './components/navbar/Navbar'
 
 export function App() {
   return (
-    <main>
+    <>
       <Navbar />
-      <Homepage />
-    </main>
+      <main>
+        <Homepage />
+      </main>
+    </>
   )
 }
