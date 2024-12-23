@@ -16,7 +16,7 @@ const Homepage = () => {
     }, [skip])
 
     const handleClick = () => {
-        setSkip(skip + 10)
+        setSkip(skip + 8)
     }
 
     return (
